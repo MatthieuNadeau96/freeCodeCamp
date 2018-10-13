@@ -110,7 +110,7 @@ constructor() {
 }
 ```
 
-This is where state gets it’s initial data. The inital data can be hard coded (as above), but it can also come from `props`.
+This is where state gets it’s initial data. The initial data can be hard coded (as above), but it can also come from `props`.
 
 ### `state` is changeable
 Here’s `updateCount` method:
@@ -142,7 +142,7 @@ this.setState({
 });
 ```
 
-Although this might look reasonable, doesn’t throw errors, and you might find examples that use this syntax online, it is wrong. This does not take into account the asychronous nature that `setState` can use and might cause errors with out of sync state data.
+Although this might look reasonable, doesn’t throw errors, and you might find examples that use this syntax online, it is wrong. This does not take into account the asynchronous nature that `setState` can use and might cause errors with out of sync state data.
 
 ### Program Continue !!!
 
