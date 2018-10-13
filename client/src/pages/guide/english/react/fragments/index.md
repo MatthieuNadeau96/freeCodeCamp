@@ -44,7 +44,7 @@ class MyComponent extends Component {
 export default MyComponent;
 ```
 
-React version 16.2 simplified this process further, allowing for empty JSX tags to interpretted as Fragments:
+React version 16.2 simplified this process further, allowing for empty JSX tags to interpreted as Fragments:
 
 ```jsx
 return (
