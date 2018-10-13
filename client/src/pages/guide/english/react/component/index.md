@@ -3,7 +3,7 @@ title: React - Components
 ---
 ## React - Components
 
-Components are reusable in react.js. You can inject value into props as given below :
+Components are reusable in react.js. You can inject value into props as given below:
 
 ```jsx
 
